@@ -28,9 +28,15 @@ public class DebugProgram {
 
         Dogs[] dogArray = new Dogs[]{d1, d2, d3, d4, d5};
 
-        for (int i = 0; i <= dogArray.length; i++) {
+        for (int i = 0; i < dogArray.length; i++) {
             String dogName = dogArray[i].getName();
+            if(dogArray[i].getName()!=null){
+
             System.out.println(dogName.trim());
+            }else{
+                System.out.println("unknow name");
+            }
+
         }
     }
 }
