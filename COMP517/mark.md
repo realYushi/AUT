@@ -1,0 +1,58 @@
+required:
+
+-   dataset
+    -   The purpose of the report is explained;
+    -   A short summary of the dataset is provided.
+    -   Appropriate Python libraries to load the dataset into a DataFrame are mentioned.
+    -   The first few rows of the dataset are clearly displayed
+    -   Observations are described and information about the dataset attributes (shape, data types, etc.) is provided.
+-   Data Pre-processing/Handling Duplicates
+    -   Duplicate rows in the dataset are checked and observations are described.
+    -   Justification on whether to keep or remove duplicate rows is provided.
+-   Data Pre-processing/Handling Outliers
+    -   Potential outliers in numerical data using BOTH statistical (skewness calculated and interpreted) and visualization methods (histogram/ boxplot) are identified.
+    -   The attributes with outliers are identified and
+    -   scatter plots to show the outlier/non-outliers are provided (at least one in report and the rest in appendix).
+    -   Justification of whether to keep, remove, or transform outliers based on their impact on the analysis is provided.
+    -   A correct method of handling the outliers (zscore vs IQR) with justification is provided
+-   Data Pre-processing/ Handling Missing Values
+    -   Columns with missing values are identified.
+    -   Justification of how to handle them is provided (impute vs delete)
+-   Data Pre-processing/Missing values
+    -   Appropriate methods to fill in missing values: (Numerical attributes vs. categorical attributes)
+-   Explore the Visualize Clean Dataset
+    -   Summary statistics metrics for those affected by the cleaning process are provided and explained.
+    -   Appropriate visualization methods to understand the distribution of numerical ( boxplot or histogram with KDE etc)
+    -   Provide suitable labels, titles, and legends for each plot are provided.
+    -   At least two plots in the report rest in the appendix.
+    -   Appropriate visualization methods to understand the distribution of categorical data (either bar plot or pie plot etc.).
+    -   Suitable labels, titles, and legends for each plot are provided.
+    -   At least two plots in the report rest in the appendix.
+    -   The provided plots are clearly explained.
+-   Multivariate Analysis/Correlation Analysis
+    -   Correlation matrixes/plots are provided (all numerical attributes)
+    -   Overall explanation of correlation plot is provided;
+    -   At least 3 distinct examples are explained.
+-   Multivariate Analysis/Multivariate analysis
+    -   -The selection of two variables is rationale;
+    -   The two plots are generated correctly: summarize the 'price' values within each category and are provided in the report.
+    -   Plots have appropriate titles, legends, and labels.
+    -   Findings are clearly explained.
+-   Multivariate Analysis/Aggregation (c)
+    -   Two common statistics are used.
+    -   Correct plot is provided;
+    -   Correct Table is provided;
+    -   Explanation of findings is clear;
+    -   Appropriate plot is provided (either on std or actual value) with labels and titles
+    -   Discussion on TWO significances of performing this analysis are provided;
+-   Conclusion
+    -   Summarized the key findings and insights gained from the EDA process.
+    -   Challenges encountered during the analysis are deliberated upon, and a clear explanation is provided regarding the strategies employed to overcome them
+    -   At least two possible steps for further analysis or data preprocessing are suggested.
+-   Report presentation
+    -   The report clearly states the title, full name, and student ID at the beginning of the report.
+    -   Table of Contents, List of Figures/Tables are provided.
+    -   Report is presented in a clear and concise manner.
+    -   Figures (Plots) and Tables have informative Labels and Captions.
+    -   The provided code is clean, well-organized, and properly commented.
+    -   The code must be ready to execute without errors.

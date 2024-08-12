@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="PDC_Tutorials">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/PDC_Tutorials.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

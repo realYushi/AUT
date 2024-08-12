@@ -1,7 +1,10 @@
-kevin 100
+hi 0
+2 -10
 bob 70
 leo 10
+yushi -4
+evin 100
 alice 80
 teddy 40
-sam 50
+sam 47
 mark -30
